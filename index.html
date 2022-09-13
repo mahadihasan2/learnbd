@@ -11,6 +11,18 @@
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/4f6bfeb153.js" crossorigin="anonymous"></script>
 
+    <style>
+        .overlay {
+            background-color: #0000006b;
+            width: 100%;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .bg-blue {
+            background-color: #161616;
+        }
+    </style>
 </head>
 
 <body>
@@ -57,7 +69,60 @@
 
 
     <!-- Main Section -->
-    <main>
+    <main class="container">
+
+        <!-- Slider -->
+        <section class="mb-5 mt-5">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/cover/cover-1.png" class="d-block w-100   " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="overlay">
+                                <h1>Get Started Digital Learning</h1>
+                                <p>Digital learning is a learning method based on the use of new digital tools <br> to
+                                    enable learners to learn in a different way</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/cover/cover-2.jpg" class="d-block w-100   " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="overlay">
+                                <h1>Get Started Digital Learning</h1>
+                                <p>Digital learning is a learning method based on the use of new digital tools <br> to
+                                    enable learners to learn in a different way</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/cover/cover-3.jpg" class="d-block w-100   " alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="overlay">
+                                <h1>Get Started Digital Learning</h1>
+                                <p>Digital learning is a learning method based on the use of new digital tools <br> to
+                                    enable learners to learn in a different way</p>
+                                <button class="btn btn-primary">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- Slider End -->
+
 
     </main>
     <!-- Main section ends -->
